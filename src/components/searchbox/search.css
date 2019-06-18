@@ -1,0 +1,31 @@
+.search-box input {
+  border-radius: 5rem;
+  height: 2.5em;
+  border-color: #a6bdd6;
+  width: 275px;
+}
+.search-box button {
+  border-top-right-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+  color: #004289;
+  border-color: #a6bdd6;
+  align-content: center;
+  background: white;
+  height: 2.5em;
+}
+.search-box button .fa,
+.search-box button .fa-search {
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.search-box button:focus,
+.search-box button:active,
+.search-box button::after,
+.search-box input:focus,
+.search-box input:active,
+.search-box input::after {
+  outline: none !important;
+  box-shadow: none;
+}
