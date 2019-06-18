@@ -1,6 +1,6 @@
 import React from "react";
 import _ from "lodash";
-import "react-read-more-less";
+import ReadMoreAndLess from "react-read-more-less";
 import "./movieGrid.css";
 
 const MoviesGrid = props => {
